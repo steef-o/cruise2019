@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/bulma-extensions/bulma-timeline/dist/css/bulma-timeline.min.css">
+    <link rel="stylesheet" href="node_modules/flatpickr/dist/flatpickr.css">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hvilken båt er det i dag</title>
+</head>
+<body>
+<header class="content container block">
+    <h1 class="has-text-centered">HVILKEN BÅT ER DET I DAG</h1>
+    <form class="">
+        <div class="field has-addons has-addons-centered has-arrow-separator">
+            <p class="control">
+                <span class="select">
+                    <select id="selection-type">
+                        <option value="name">Skipsnavn</option>
+                        <option value="date">Dato</option>
+                    </select>
+                </span>
+            </p>
+            <p class="control">
+                <input type="text" class="input" id="search" placeholder="Søk etter skipsnavn">
+            </p>
+        </div>
+    </form>
+</header>
+<section class="content container block">
+    <div id="search-results"></div>
+</section>
+
+
+
+<script src="node_modules/dateformat/lib/dateformat.js"></script>
+<script src="node_modules/flatpickr/dist/flatpickr.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

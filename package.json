@@ -1,0 +1,21 @@
+{
+  "name": "cruise2019",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.7.4",
+    "bulma-extensions": "^6.2.5",
+    "dateformat": "^3.0.3",
+    "flatpickr": "^4.5.7"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.2"
+  }
+}
